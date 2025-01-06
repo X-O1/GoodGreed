@@ -1,66 +1,54 @@
-## Foundry
+# GOODGREED: Fund Public Goods With the Trading Fees of Others
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+## Overview
+GOODGREED transforms speculative trading into a powerful tool for funding public goods, charities, and personal causes. By redirecting a portion of token trading fees to verified causes, GOODGREED ensures that market activity generates sustainable, impactful revenue. Every project launched on the platform is tied to a verified identity, ensuring authenticity and accountability.
 
-Foundry consists of:
+## Key Features
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+### 1. **Greed Meets Good**
+GOODGREED aligns profit-seeking with philanthropy by redirecting trading fees to meaningful causes. Traders benefit from market speculation, while causes gain a continuous revenue stream.
 
-## Documentation
+### 2. **Verified Launches**
+Only verified accounts on X (formerly Twitter) can launch tokens, tying real-world reputations to each project. This reduces spam and ensures accountability.
 
-https://book.getfoundry.sh/
+### 3. **Locked Liquidity**
+Liquidity is locked upon token launch, protecting investors from rug pulls and boosting confidence.
 
-## Usage
+### 4. **Automated Deployment**
+A bot automates token deployment by validating posts tagging the official GOODGREED account. This minimizes human error and streamlines the launch process.
 
-### Build
+### 5. **Time-Locked Security**
+A 12–24 hour delay between posting and token launch ensures security against hacks and provides time for thoughtful preparation.
 
-```shell
-$ forge build
-```
+### 6. **Fee Flow**
+A portion of every trade (e.g., 1%) is routed to the cause’s wallet, creating a sustainable funding mechanism without the need for founders to sell tokens.
 
-### Test
+### 7. **Reputation-Driven Accountability**
+With verified identities tied to each launch, founders are incentivized to maintain credibility and avoid misuse of funds.
 
-```shell
-$ forge test
-```
+## How It Works
 
-### Format
+1. **Set Up on GOODGREED**  
+   Connect your wallet, input token details (name, ticker, bio, etc.), and specify your verified X handle.
 
-```shell
-$ forge fmt
-```
+2. **Post on X**  
+   Announce your cause by tagging the official GOODGREED account with your wallet address. The bot validates your identity and initiates a launch countdown.
 
-### Gas Snapshots
+3. **Token Launch**  
+   After the countdown, liquidity is automatically provided and locked. Trading begins, and a fraction of trading fees flows to the cause’s wallet.
 
-```shell
-$ forge snapshot
-```
+4. **Collect Fees**  
+   Causes receive accumulated fees from trading activity, which can be withdrawn according to the vesting schedule.
 
-### Anvil
+## Game Theory & Market Dynamics
 
-```shell
-$ anvil
-```
+- **Market “Voting”**: Projects with compelling missions attract more trading activity, driving higher fee revenue.
+- **Win-Win Model**: Traders can speculate on price, while causes gain continuous funding.
+- **Reputation-Driven**: Publicly tying a verified identity to a project encourages transparency and accountability.
 
-### Deploy
+## Why GOODGREED?
 
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
+GOODGREED is more than a token launchpad; it’s a new way to fund public goods and personal causes. By combining verified identities, DeFi automation, and locked liquidity, GOODGREED fosters a trust-minimized ecosystem where traders and causes mutually benefit. 
 
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+## Join the Movement
+Turn trading greed into social good. Launch your cause or support impactful projects today with GOODGREED!
